@@ -1,0 +1,24 @@
+{
+    "compilerOptions": {
+        "outDir": "build",
+        "jsx": "react-jsx",
+        "target": "ES5",
+        "module": "CommonJS",
+        "moduleResolution": "node",
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "forceConsistentCasingInFileNames": true,
+        "skipLibCheck": true,
+        "noUnusedParameters": true,
+        "noImplicitAny": true,
+        "downlevelIteration": true,
+        "resolveJsonModule": true,
+        "declaration": true,
+        "sourceMap": true,
+        "types": ["react", "react-dom", "node"]
+    },
+    "include": ["./src"],
+    "exclude": ["**/node_modules/**", "packages/*/dist"]
+}
